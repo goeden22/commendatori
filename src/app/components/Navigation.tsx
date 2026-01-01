@@ -11,18 +11,18 @@ export function Navigation() {
       className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/80 backdrop-blur-md "
     >
       <div className="mx-auto py-6 flex justify-between items-center md:px-12 lg:px-24 px-6">
-        {/* Logo */}
-        <a
-          href="#"
-          style={{
-            fontFamily: "Cormorant Garamond, serif",
-            fontSize: "1.5rem",
-            letterSpacing: "-0.01em",
-            fontWeight: 500,
-          }}
-        >
-          <CommendatoriLogo variant="full" color="light" size="sm" />
-        </a>
+           <Link
+            to="/"
+            className="text-muted-foreground hover:text-foreground transition-colors"
+            style={{
+              fontFamily: "DM Sans, sans-serif",
+              fontSize: "0.875rem",
+              letterSpacing: "0.05em",
+            }}
+          >
+    <CommendatoriLogo />
+          </Link>
+       
 
         {/* Nav Links */}
         <div className="hidden md:flex items-center gap-12">

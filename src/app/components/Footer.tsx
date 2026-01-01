@@ -1,3 +1,5 @@
+import { CommendatoriLogo } from "./CommendatoriLogo";
+
 export function Footer() {
   return (
     <footer className="border-t border-border px-6 md:px-12 lg:px-24 py-16">
@@ -13,7 +15,7 @@ export function Footer() {
                 fontWeight: 500,
               }}
             >
-              Commendatori
+             <CommendatoriLogo></CommendatoriLogo>
             </h3>
             <p className="text-muted-foreground max-w-sm" style={{ fontSize: '0.9375rem', lineHeight: '1.7' }}>
               SEO & marketing for interior design studios who lead their category.
