@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { CommendatoriLogo } from "./CommendatoriLogo";
+import { Link } from "react-router-dom";
 
 export function Navigation() {
   return (
@@ -14,9 +15,9 @@ export function Navigation() {
         <a
           href="#"
           style={{
-            fontFamily: 'Cormorant Garamond, serif',
-            fontSize: '1.5rem',
-            letterSpacing: '-0.01em',
+            fontFamily: "Cormorant Garamond, serif",
+            fontSize: "1.5rem",
+            letterSpacing: "-0.01em",
             fontWeight: 500,
           }}
         >
@@ -25,13 +26,35 @@ export function Navigation() {
 
         {/* Nav Links */}
         <div className="hidden md:flex items-center gap-12">
+           <Link
+            to="/"
+            className="text-muted-foreground hover:text-foreground transition-colors"
+            style={{
+              fontFamily: "DM Sans, sans-serif",
+              fontSize: "0.875rem",
+              letterSpacing: "0.05em",
+            }}
+          >
+          Home
+          </Link>
+          <Link
+            to="/blog"
+            className="text-muted-foreground hover:text-foreground transition-colors"
+            style={{
+              fontFamily: "DM Sans, sans-serif",
+              fontSize: "0.875rem",
+              letterSpacing: "0.05em",
+            }}
+          >
+            Blog & Insights
+          </Link>
           <a
             href="#contact"
             className="text-muted-foreground hover:text-foreground transition-colors"
             style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontSize: '0.875rem',
-              letterSpacing: '0.05em',
+              fontFamily: "DM Sans, sans-serif",
+              fontSize: "0.875rem",
+              letterSpacing: "0.05em",
             }}
           >
             Contact
