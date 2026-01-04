@@ -12,16 +12,16 @@ const services = [
       "https://images.unsplash.com/photo-1625259960906-725234a78ed8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBpbnRlcmlvciUyMGRlc2lnbiUyMGRhcmt8ZW58MXx8fHwxNzY3MjE1MDUyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
   },
   {
-    title: "Content Strategy",
+    title: "Graphic Design & Visual Identity",
     description:
-      "Sophisticated storytelling that reflects your design philosophy. Each piece is crafted to position your studio as a category leader, not a service provider.",
+      "We create refined visual identities for interior design brands that want to look cohesive, premium, and recognizable. From logos and brand assets to marketing visuals, we design everything to reflect your aesthetic, elevate your positioning, and support long-term brand growth.",
     image:
       "https://images.unsplash.com/photo-1651841689205-8eeb7ce02a73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlZGl0b3JpYWwlMjBpbnRlcmlvciUyMHN0b25lfGVufDF8fHx8MTc2NzIxNTA1M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
   },
   {
-    title: "Brand-Aligned Digital Marketing",
+    title: "Web & IT Solutions",
     description:
-      "Marketing that respects your aesthetic standards. Every touchpoint is designed to reinforce the caliber of your work.",
+      "We design and develop high-performance websites and e-commerce solutions built for interior design brands. From custom websites to online stores, UX, and technical setup, we handle the full IT side—ensuring your digital presence looks exceptional, works flawlessly, and supports SEO from the start.",
     image:
       "https://images.unsplash.com/photo-1665043548178-8e606eca11eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmUlMjBtaW5pbWFsfGVufDF8fHx8MTc2NzE3MDA2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
   },
