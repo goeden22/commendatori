@@ -42,7 +42,7 @@ export function FinalCTA() {
           >
             <a
               href="mailto:contact@commendatori.org"
-              className="inline-block bg-primary text-primary-foreground px-12 py-5 hover:bg-accent transition-all duration-300"
+              className="inline-block mb-4 bg-primary text-primary-foreground px-12 py-5 hover:bg-accent transition-all duration-300"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontSize: '0.875rem',
@@ -54,16 +54,29 @@ export function FinalCTA() {
               Start a Conversation
             </a>
           </motion.div>
-
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={isInView ? { opacity: 1 } : {}}
-            transition={{ delay: 0.5, duration: 0.8 }}
-            className="text-muted-foreground pt-8"
-            style={{ fontSize: '0.875rem', letterSpacing: '0.05em' }}
+            <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={isInView ? { opacity: 1, y: 0 } : {}}
+            transition={{ delay: 0.3, duration: 0.8 }}
+            className="pt-6"
           >
-            contact@commendatori.org
-          </motion.p>
+       <a
+              href="mailto:contact@commendatori.org"
+              className="block mb-3 text-foreground hover:text-primary transition-colors"
+              style={{ fontSize: "1rem" }}
+            >
+              contact@commendatori.org
+            </a>
+            <a
+              href="tel:+48501347369"
+              className="block text-foreground hover:text-primary transition-colors"
+              style={{ fontSize: "1rem" }}
+            >
+              +48 501 347 369
+            </a>
+          </motion.div>
+               
+          
         </motion.div>
       </div>
     </section>

@@ -73,7 +73,7 @@ export function Hero() {
             className="pt-4"
           >
             <a
-              href="#contact"
+              href="/contact"
               className="inline-block border border-primary px-10 py-4 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
               style={{
                 fontFamily: 'DM Sans, sans-serif',

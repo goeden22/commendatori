@@ -37,13 +37,14 @@ export function Footer() {
             >
               contact@commendatori.org
             </a>
-                  <p
-     
+                   <a
+              href="tel:+48501347369"
               className="block text-foreground hover:text-primary transition-colors"
               style={{ fontSize: '1rem' }}
             >
-              +48 501 347 369
-            </p>
+                +48 501 347 369
+            </a>
+          
           </div>
 
           {/* Legal */}

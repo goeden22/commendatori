@@ -4,6 +4,7 @@ import { BlogListPage } from "./pages/BlogListPage";
 import { BlogPostPage } from "./pages/BlogPostPage";
 import { Navigation } from "./components/Navigation";
 import { Footer } from "./components/Footer";
+import { FinalCTA } from "./components/FinalCTA";
 
 export default function App() {
   return (
@@ -21,6 +22,13 @@ export default function App() {
           <>
             <Navigation />
             <BlogPostPage />
+            <Footer />
+          </>
+        } />
+               <Route path="/contact" element={
+          <>
+            <Navigation />
+            <FinalCTA />
             <Footer />
           </>
         } />
