@@ -195,3 +195,7 @@
     line-height: 1.5;
   }
 }
+
+.grayscale-5 {
+  filter: grayscale(0.5);
+}

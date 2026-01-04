@@ -9,7 +9,7 @@ export function Hero() {
         <ImageWithFallback
           src="https://images.unsplash.com/photo-1761472651560-f5ae4f4fda1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtYXJibGUlMjBpbnRlcmlvciUyMGFyY2hpdGVjdHVyZXxlbnwxfHx8fDE3NjcyMTUzOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
           alt="Luxury interior architecture"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover grayscale-5"
         />
         {/* Dark overlay for text readability */}
         <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/80 to-background"></div>
