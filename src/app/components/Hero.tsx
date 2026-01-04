@@ -15,7 +15,7 @@ export function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/80 to-background"></div>
       </div>
 
-      <div className="max-w-7xl w-full relative z-10 mt-10">
+      <div className="max-w-7xl w-full relative z-10 md:mt-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
