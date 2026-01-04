@@ -31,12 +31,19 @@ export function Footer() {
               Get in Touch
             </p>
             <a
-              href="mailto:hello@commendatori.co"
+              href="mailto:contact@commendatori.org"
               className="block text-foreground hover:text-primary transition-colors"
               style={{ fontSize: '1rem' }}
             >
-              hello@commendatori.co
+              contact@commendatori.org
             </a>
+                  <p
+     
+              className="block text-foreground hover:text-primary transition-colors"
+              style={{ fontSize: '1rem' }}
+            >
+              +48 501 347 369
+            </p>
           </div>
 
           {/* Legal */}

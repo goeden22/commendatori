@@ -41,7 +41,7 @@ export function FinalCTA() {
             className="pt-6"
           >
             <a
-              href="mailto:hello@commendatori.co"
+              href="mailto:contact@commendatori.org"
               className="inline-block bg-primary text-primary-foreground px-12 py-5 hover:bg-accent transition-all duration-300"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -62,7 +62,7 @@ export function FinalCTA() {
             className="text-muted-foreground pt-8"
             style={{ fontSize: '0.875rem', letterSpacing: '0.05em' }}
           >
-            hello@commendatori.co
+            contact@commendatori.org
           </motion.p>
         </motion.div>
       </div>
