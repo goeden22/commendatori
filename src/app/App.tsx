@@ -8,34 +8,31 @@ import { FinalCTA } from "./components/FinalCTA";
 
 export default function App() {
   return (
-    <div>
-      Vercel
-    </div>
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route path="/" element={<HomePage />} />
-    //     <Route path="/blog" element={
-    //       <>
-    //         <Navigation />
-    //         <BlogListPage />
-    //         <Footer />
-    //       </>
-    //     } />
-    //     <Route path="/blog/:slug" element={
-    //       <>
-    //         <Navigation />
-    //         <BlogPostPage />
-    //         <Footer />
-    //       </>
-    //     } />
-    //            <Route path="/contact" element={
-    //       <>
-    //         <Navigation />
-    //         <FinalCTA />
-    //         <Footer />
-    //       </>
-    //     } />
-    //   </Routes>
-    // </BrowserRouter>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/blog" element={
+          <>
+            <Navigation />
+            <BlogListPage />
+            <Footer />
+          </>
+        } />
+        <Route path="/blog/:slug" element={
+          <>
+            <Navigation />
+            <BlogPostPage />
+            <Footer />
+          </>
+        } />
+               <Route path="/contact" element={
+          <>
+            <Navigation />
+            <FinalCTA />
+            <Footer />
+          </>
+        } />
+      </Routes>
+    </BrowserRouter>
   );
 }
